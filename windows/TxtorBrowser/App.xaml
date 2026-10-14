@@ -1,0 +1,29 @@
+<Application x:Class="TxTorBrowser.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Glassmorphism Deep Black/Purple Theme Colors -->
+        <Color x:Key="TxTorBackground">#06030D</Color>
+        <Color x:Key="TxTorSurface">#120824</Color>
+        <Color x:Key="TxTorSurfaceElevated">#1B0E36</Color>
+        <Color x:Key="TxTorPrimary">#A855F7</Color>
+        <Color x:Key="TxTorSecondary">#D946EF</Color>
+        <Color x:Key="TxTorCyan">#06B6D4</Color>
+        <Color x:Key="TxTorTextPrimary">#F8FAFC</Color>
+        <Color x:Key="TxTorTextMuted">#7E8B9B</Color>
+
+        <SolidColorBrush x:Key="BrushBackground" Color="{StaticResource TxTorBackground}" />
+        <SolidColorBrush x:Key="BrushSurface" Color="{StaticResource TxTorSurface}" />
+        <SolidColorBrush x:Key="BrushPrimary" Color="{StaticResource TxTorPrimary}" />
+        <SolidColorBrush x:Key="BrushSecondary" Color="{StaticResource TxTorSecondary}" />
+        <SolidColorBrush x:Key="BrushTextPrimary" Color="{StaticResource TxTorTextPrimary}" />
+        <SolidColorBrush x:Key="BrushTextMuted" Color="{StaticResource TxTorTextMuted}" />
+
+        <LinearGradientBrush x:Key="BrushPurpleGradient" StartPoint="0,0" EndPoint="1,0">
+            <GradientStop Color="#7C3AED" Offset="0.0" />
+            <GradientStop Color="#A855F7" Offset="0.5" />
+            <GradientStop Color="#D946EF" Offset="1.0" />
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>

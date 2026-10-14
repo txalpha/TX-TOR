@@ -1,0 +1,6 @@
+{
+  "name": "TX TOR",
+  "description": "TX TOR — Premium Super Fast Browser with glassmorphism design, multi-tab browsing, desktop mode, media detector, and persistent download manager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
